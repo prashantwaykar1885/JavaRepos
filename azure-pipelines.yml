@@ -20,3 +20,6 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: RunFromFileSystemTask@1
+  inputs:
+    testPathInput: 'C:\Users\pwaykar\OS Automation\TestScripts'
